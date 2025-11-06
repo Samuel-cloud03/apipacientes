@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const Usuario = require('../models/usuario');
+const Usuario = require('../models/Usuario');
 
 const login = async (req, res) =>{
     try{           
@@ -54,4 +54,5 @@ module.exports = {login, register};
 //     "nombreUsuario": "admin",
 //     "contraseña": "12345",
 //     "rol": "admin"
+
 // }
